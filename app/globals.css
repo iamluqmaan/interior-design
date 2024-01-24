@@ -3,25 +3,47 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --backgound-rgb: #FFFFFF;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+*{
+  margin-top: 0;
+}
+html{
+  /* overflow: hidden; */
+}
+body {
+ height:100%;
+ width: 100%;
+ color: rgb(var(--background-rgb));
+ background-image: url('../public/images/sofa.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  body {
+    
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* height:30vh;  */
+    background-image: url('../public/images/mobileView.png');
+  }
+}
+@media (min-width: 350) and (max-width: 640px) {
+  #aboutPage {
+    padding-top: 30vh;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+footer {
+  width: 100%;
+}
+input::placeholder{
+  color:#FFFFFF;
+}
+#landing-page {
+  
 }

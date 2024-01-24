@@ -1,0 +1,5 @@
+@media (min-width: 350) and (max-width: 640px) {
+    #aboutPage {
+      padding-top: 30vh;
+    }
+  }
