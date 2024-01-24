@@ -250,7 +250,7 @@ export default function about() {
                 <div className='text-xs space-y-3'>
                     <h5 className='font-semibold'>solution innovative</h5>
                     <p className='leading-5'>
-                    "I loved working with Darla shady rhymes for about 2 years and highly 
+                    I loved working with Darla shady rhymes for about 2 years and highly 
                     recommend anyone looking for an interior designer agency who brings 
                     creativity but designs something that fits YOU and your style.
                     </p>
@@ -282,7 +282,7 @@ export default function about() {
                         <p >
                             We help people not only to make the room at home better, 
                             but we help people to feel a more homey and comfortable room, 
-                            you don't have to worry about the result because of these interiors 
+                            you do not have to worry about the result because of these interiors 
                             are made by people who are professionals in their dields with an elegant and lucuriois 
                             style and with premium quality materials
                         </p>
